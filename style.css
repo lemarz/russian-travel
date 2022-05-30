@@ -156,7 +156,18 @@
    padding: 0 148px 92px;
 }
 
-.place {}
+.place {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: auto 1fr;
+   grid-template-areas:
+      "title website"
+      "image paragraph";
+   row-gap: 48px;
+   column-gap: 40px;
+   margin: 0 auto 80px;
+   max-width: 1000px;
+}
 
 .place__presentation-column {}
 
@@ -168,13 +179,18 @@
    font-size: 72px;
    line-height: 76px;
    font-weight: bold;
+   grid-area: title;
 }
 
 .place__image {
    max-height: 460px;
+   grid-area: image;
 }
 
-.place__website {}
+.place__website {
+   grid-area: website;
+   align-self: end;
+}
 
 .place__url-heading {
    margin: 0;
@@ -182,15 +198,28 @@
    font-size: 12px;
    line-height: 12px;
    font-weight: normal;
+   opacity: 0.5;
+   margin: 0 0 12px;
 }
 
-.place__link {}
+.place__link {
+   margin: 0;
+   color: #FFFFFF;
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: normal;
+   text-decoration: underline;
+}
 
-.place_paragraph {
+.place__paragraph-block {
+   grid-area: paragraph;
+}
+
+.place__paragraph {
    margin: 0;
    color: #FFFFFF;
    font-size: 12px;
    line-height: 18px;
    font-weight: normal;
-
+   margin-bottom: 26px;
 }
