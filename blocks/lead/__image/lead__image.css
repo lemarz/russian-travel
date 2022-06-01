@@ -1,0 +1,21 @@
+.lead__image {
+      display: block;
+      max-width: calc(100% - 148px*2);
+      margin: 8px 148px;
+      position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+      .lead__image {
+            max-width: calc(100% - 48px*2);
+            margin: 8px 48px;
+
+      }
+}
+
+@media screen and (max-width: 768px) {
+      .lead__image {
+            max-width: 100%;
+            margin: 8px 0;
+      }
+}

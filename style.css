@@ -58,7 +58,7 @@
    margin: 0 auto 50px;
 }
 
-.lead__img {
+.lead__image {
    display: block;
    max-width: calc(100% - 148px*2);
    margin: 8px 148px;
@@ -169,10 +169,6 @@
    margin: 0 auto 80px;
    max-width: 1000px;
 }
-
-.place__presentation-column {}
-
-.place__description-column {}
 
 .place__title {
    margin: 0;
