@@ -2,6 +2,7 @@
    font-family: 'Inter', Arial, sans-serif;
    background-color: #2A2C2F;
    margin: 0;
+   padding: 0;
    min-width: none;
 
 }
@@ -40,7 +41,7 @@
    margin: 0;
    color: #FFFFFF;
    font-size: 96px;
-   font-weight: bold;
+   font-weight: 900;
    line-height: 100px;
    text-align: center;
    margin: 0 auto 20px;
