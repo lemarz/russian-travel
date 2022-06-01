@@ -223,3 +223,54 @@
    font-weight: normal;
    margin-bottom: 26px;
 }
+
+.cover {
+   background-image: url(/images/cover-trains.jpg);
+   background-size: cover;
+   width: 1200px;
+   height: 740px;
+   margin: 0 auto 92px;
+   display: flex;
+}
+
+
+.cover__overlay {
+   justify-content: end;
+   align-items: end;
+}
+
+.cover__title {
+   margin: 0;
+   color: #FFFFFF;
+   font-size: 72px;
+   line-height: 76px;
+   font-weight: bold;
+}
+
+.cover__subtitle {
+   margin: 0;
+   color: #FFFFFF;
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: normal;
+}
+
+.footer {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer__links {
+   display: flex;
+   flex-direction: row;
+}
+
+.footer__link {}
+
+.footer__copyright {
+   margin: 0;
+   color: #FFFFFF;
+   font-size: 14px;
+   line-height: 16px;
+   font-weight: normal;
+}
