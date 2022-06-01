@@ -1,0 +1,10 @@
+.narrow {
+   /* max-width: calc(100% - 148px*2); */
+   padding: 0 148px;
+}
+
+@media screen and (max-width: 1024px) {
+   .narrow {
+      padding: 0;
+   }
+}
