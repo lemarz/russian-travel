@@ -1,0 +1,5 @@
+.lead__img {
+      max-width: calc(100% - 48px*2);
+      margin: 8px 48px;
+
+   }
