@@ -1,1 +1,22 @@
-.footer__link {}
+.footer__link {
+   margin: 0;
+   color: #FFFFFF;
+   font-size: 16px;
+   line-height: 18px;
+   font-weight: normal;
+   margin-right: 18px;
+}
+
+.footer__link:last-of-type {
+   margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+   .footer__link {
+      margin-bottom: 32px;
+   }
+
+   .footer__link:last-of-type {
+      margin-bottom: 0;
+   }
+}
