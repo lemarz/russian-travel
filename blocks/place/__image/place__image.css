@@ -1,4 +1,12 @@
 .place__image {
    width: 100%;
-   height: auto;
+   max-height: 460px;
+   max-width: 460px;
+}
+
+@media screen and (max-width: 767px) {
+   .place__image {
+      max-height: 100%;
+      max-width: 720px;
+   }
 }
