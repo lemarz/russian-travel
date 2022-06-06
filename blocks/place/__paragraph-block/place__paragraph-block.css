@@ -16,6 +16,8 @@
 
 @media screen and (max-width: 767px) {
    .place__paragraph-block {
-      min-width: 100%;
+      box-sizing: border-box;
+      min-width: calc(100% - 16px * 2);
+      margin: 0 16px;
    }
 }
