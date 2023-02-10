@@ -4,5 +4,5 @@
 * Проектная работа Яндекс.Практикум
 
 **Ссылка на работу**
-[Github-pages](https://l3m4rz.github.io/russian-travel/)
+[Github-pages](https://lemarz.github.io/russian-travel/)
 
